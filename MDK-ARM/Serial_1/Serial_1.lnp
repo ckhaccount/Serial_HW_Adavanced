@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"serial_1\startup_stm32f427xx.o"
+"serial_1\main.o"
+"serial_1\gpio.o"
+"serial_1\usart.o"
+"serial_1\stm32f4xx_it.o"
+"serial_1\stm32f4xx_hal_msp.o"
+"serial_1\stm32f4xx_hal_tim.o"
+"serial_1\stm32f4xx_hal_tim_ex.o"
+"serial_1\stm32f4xx_hal_uart.o"
+"serial_1\stm32f4xx_hal_rcc.o"
+"serial_1\stm32f4xx_hal_rcc_ex.o"
+"serial_1\stm32f4xx_hal_flash.o"
+"serial_1\stm32f4xx_hal_flash_ex.o"
+"serial_1\stm32f4xx_hal_flash_ramfunc.o"
+"serial_1\stm32f4xx_hal_gpio.o"
+"serial_1\stm32f4xx_hal_dma_ex.o"
+"serial_1\stm32f4xx_hal_dma.o"
+"serial_1\stm32f4xx_hal_pwr.o"
+"serial_1\stm32f4xx_hal_pwr_ex.o"
+"serial_1\stm32f4xx_hal_cortex.o"
+"serial_1\stm32f4xx_hal.o"
+"serial_1\stm32f4xx_hal_exti.o"
+"serial_1\system_stm32f4xx.o"
+--strict --scatter "Serial_1\Serial_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Serial_1.map" -o Serial_1\Serial_1.axf
