@@ -419,6 +419,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>RXTX_cplt_callback.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\RXTX_cplt_callback.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -535,5 +540,14 @@
     </components>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>Serial_1</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>

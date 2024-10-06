@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Serial_1.elf.dir/Core/Src/RXTX_cplt_callback.cpp.obj"
+  "CMakeFiles/Serial_1.elf.dir/Core/Src/RXTX_cplt_callback.cpp.obj.d"
   "CMakeFiles/Serial_1.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/Serial_1.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/Serial_1.elf.dir/Core/Src/main.c.obj"
@@ -54,6 +56,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/Serial_1.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

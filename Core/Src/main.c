@@ -55,7 +55,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t receivemessage[2];
+GPIO_PinState pinstate = GPIO_PIN_RESET;
 /* USER CODE END 0 */
 
 /**
@@ -90,7 +91,10 @@ int main(void)
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
 char message[] = "Hello World! ";
-  uint8_t receivemessage[1];
+
+  //uint8_t fenhang[2]="\r\n";
+ // int flag=0;
+  HAL_UART_Receive_IT(&huart6, receivemessage, 2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -100,10 +104,15 @@ char message[] = "Hello World! ";
     // HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_11);
     // HAL_UART_Transmit(&huart6, (uint8_t*)message, strlen(message), 100);
     // HAL_Delay(1000);
-    if(HAL_UART_Receive(&huart6, receivemessage, 1, 50)==HAL_OK)
-    {
-      HAL_UART_Transmit(&huart6, receivemessage, 1, 50);
-    }
+
+		// if(flag)
+  //   {
+		// 	HAL_Delay(1000);
+		// 	HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_SET);
+		// 	HAL_UART_Transmit_IT(&huart6, receivemessage, 10);
+		// 	flag=0;
+		// }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

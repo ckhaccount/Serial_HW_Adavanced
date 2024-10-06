@@ -3,8 +3,19 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Serial_1" targetName="Serial_1.elf" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -12,7 +23,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7f55c9-da41-47c3-8da9-66e0e74c4fc2" name="Changes" comment="" />
+    <list default="true" id="1e7f55c9-da41-47c3-8da9-66e0e74c4fc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1.uvguix.Dell" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1.uvguix.Dell" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1_Serial_1.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1_Serial_1.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Serial_1.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Serial_1.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Serial_1.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Serial_1.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +50,10 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -31,12 +65,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake Application.Serial_1.elf.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/STM32Project/Serial_1",
     "node.js.detected.package.eslint": "true",
@@ -49,12 +85,14 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" version="1">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" reset-type="INIT" download-type="UPDATED_ONLY">
-        <debugger kind="GDB" isBundled="true" />
-      </openocd>
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Serial_1.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Serial_1" TARGET_NAME="Serial_1.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Serial_1" RUN_TARGET_NAME="Serial_1.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -67,11 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1728115919310</updated>
       <workItem from="1728115920366" duration="52000" />
-      <workItem from="1728119692013" duration="774000" />
+      <workItem from="1728119692013" duration="3806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
 </project>

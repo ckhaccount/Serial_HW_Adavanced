@@ -5,6 +5,7 @@
 "serial_1\usart.o"
 "serial_1\stm32f4xx_it.o"
 "serial_1\stm32f4xx_hal_msp.o"
+"serial_1\rxtx_cplt_callback.o"
 "serial_1\stm32f4xx_hal_tim.o"
 "serial_1\stm32f4xx_hal_tim_ex.o"
 "serial_1\stm32f4xx_hal_uart.o"
