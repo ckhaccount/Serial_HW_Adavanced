@@ -24,6 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e7f55c9-da41-47c3-8da9-66e0e74c4fc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Core/Src/RXTX_cplt_callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/RXTX_cplt_callback.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1.uvguix.Dell" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1.uvguix.Dell" afterDir="false" />
@@ -34,14 +35,9 @@
       <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1_Serial_1.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/Serial_1_Serial_1.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/gpio.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial_1.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Serial_1.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Serial_1.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Serial_1.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Serial_1.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Serial_1.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/Serial_1/rxtx_cplt_callback.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/Serial_1/rxtx_cplt_callback.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728115919310</updated>
       <workItem from="1728115920366" duration="52000" />
-      <workItem from="1728119692013" duration="3806000" />
+      <workItem from="1728119692013" duration="18784000" />
     </task>
     <servers />
   </component>
